@@ -1,0 +1,2 @@
+config SHIELD_SOMBERV1.6
+    def_bool $(shields_list_containers, SomberV1)
