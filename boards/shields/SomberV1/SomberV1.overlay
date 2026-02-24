@@ -34,7 +34,7 @@
                     <&gpio0 24 GPIO_ACTIVE_HIGH>;
     };
 
-    default_transform: matrix_transform {
+    transform0: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <5>;
         columns = <15>;
