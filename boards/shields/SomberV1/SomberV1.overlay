@@ -11,8 +11,8 @@
         diode-direction = "row2col";
         row-gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
         row-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        col-gpios = <&gpio1 4  GPIO_ACTIVE_HIGH>, 
-        col-gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>;
+        col-gpios = <&gpio0 9  GPIO_ACTIVE_HIGH>, 
+        col-gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
     };
 
     transform0: matrix_transform {
