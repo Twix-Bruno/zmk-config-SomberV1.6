@@ -1,2 +1,2 @@
 config ZMK_SHIELD_SOMBERV1
-	def_bool $(shields_list_containers,SomberV1)
+	def_bool $(shields_list_contains,SomberV1)
