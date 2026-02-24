@@ -1,4 +1,4 @@
-if SHIELD_SOMBERV1
+if ZMK_SHIELD_SOMBERV1
 
 config ZMK_KEYBOARD_NAME
     default "SomberV1"
