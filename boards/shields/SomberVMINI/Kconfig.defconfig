@@ -1,0 +1,6 @@
+if ZMK_SHIELD_SOMBERVMINI
+
+config ZMK_KEYBOARD_NAME
+    default "SomberVMINI"
+
+endif
