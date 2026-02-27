@@ -11,7 +11,7 @@
             bindings = <
                 &kp Q &kp W &kp E &kp R &kp T &kp Z
                 &kp A &kp S &kp D &kp F &kp G &kp H
-                &kp LSHIFT &kp LGUI &kp LALT &kp LCTRL &kp SPACE &mo 1
+                &kp LSHIFT &kp LCTRL &kp LALT &kp LGUI &kp SPACE &mo 1
             >;
         };
 
