@@ -8,20 +8,20 @@
 
         default_layer {
             display-name = "Default";
-
             bindings = <
                 &kp Q &kp W &kp E &kp R &kp T &kp Z
                 &kp A &kp S &kp D &kp F &kp G &kp H
-                &kp LSHIFT &kp LGUI &kp LALT &kp LCTRL &kp Space &mo 1
+                &kp LSHIFT &kp LGUI &kp LALT &kp LCTRL &kp SPACE &mo 1
             >;
         };
 
         function_layer {
             display-name = "Function";
-
             bindings = <
-                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
-                &bootloader &studio_unlock &kp N1 &kp N2 &kp N3 &kp N4
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 
+                &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
+                &bootloader &studio_unlock &kp N1 &kp N2 
+                &kp N3 &kp N4
                 &trans &trans &trans &trans &trans &trans
             >;
         };
