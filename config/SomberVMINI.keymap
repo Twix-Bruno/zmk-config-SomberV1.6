@@ -10,9 +10,9 @@
             display-name = "Default";
 
             bindings = <
-                &kp Q &kp W &kp E &kp R &kp T E &kp Z
+                &kp Q &kp W &kp E &kp R &kp T &kp Z
                 &kp A &kp S &kp D &kp F &kp G &kp H
-                &kp LSHIFT &kp LGUI &kp LALT &kp LGUI C &kp LGUI V &mo 1
+                &kp LSHIFT &kp LGUI &kp LALT &kp LGUI+C &kp LGUI+V &mo 1
             >;
         };
 
